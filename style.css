@@ -1,11 +1,17 @@
 body {
-    background-color: black;
+    background-color: rgb(252, 249, 249);
+ 
 }
 
 #criar-tarefa {
     background-color: black;
     color: white;
     height: 30px;
+}
+
+#funcionamento {
+    font-size: 30px
+
 }
 
 
@@ -37,7 +43,6 @@ body {
     display: flex;
     font-size: 20px;
     background-color: rgb(217, 209, 224);
-    border: 4px solid rgb(168, 216, 36);
     width: 300px;
     justify-content: center;
     height: 30px;
@@ -46,7 +51,6 @@ body {
     display: flex;
     font-size: 20px;
     background-color: rgb(217, 209, 224);
-    border: 4px solid rgb(168, 216, 36);
     width: 300px;
     justify-content: center;
     height: 30px;
@@ -65,17 +69,13 @@ body {
 .button-save {
     display: flex;
     font-size: 20px;
-    background-color: rgb(217, 209, 224);
-    border: 4px solid rgb(230, 8, 8);
     width: 300px;
     justify-content: center;
 }
 
 .button-clear-completed{
     display: flex;
-    font-size: 20px;
-    background-color: rgb(217, 209, 224);
-    border: 4px solid rgb(230, 8, 8);
+    font-size: 20px;   
     width: 300px;
     justify-content: center;  
 }
@@ -83,8 +83,6 @@ body {
 .button-input-task{
     display: flex;
     font-size: 20px;
-    background-color: blueviolet;
-    border: 4px solid yellow;
     width: 300px;
     justify-content: center;
 }
@@ -92,21 +90,24 @@ body {
 .button-clear{
     display: flex;
     font-size: 20px;
-    background-color: red;
-    border: 4px solid rgb(238, 238, 231);
     width: 300px;
     justify-content: center;
   
 }
 
 #texto-tarefa{
-    height:40px ;
-    margin-left: 590px;
+    display: flex;
+   margin-left: 650px;
+   width: 500px;
+   height: 50px;
+   border: 2px solid black;
+   
 }
 header {
-    background-color: yellow;
+    background-color: rgb(13, 233, 24);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 5px solid black;
 }
 
 #header {
@@ -118,23 +119,23 @@ p {
 
 main {
     background-color: green;
-    height: 400px;
+    height: 600px;
+    background-image: url("back.png");
+    background-size:1170px;
 }
 
 
 .taskItem {
     font-size: 30px;
     border: 1px solid black;
+    background-color: rgb(59, 238, 24);
 }
 
 .footer{
     padding: 20px;
     font-size: 30px;
     border: 3px solid black;
-}
-
-.taskItem {
-    background-color: yellow;
+    text-align: center;
 }
 
 .selected {
@@ -143,4 +144,10 @@ main {
 
 .completed {
    text-decoration: line-through solid rgb(0, 0, 0);
+}
+
+
+#divButton {
+    display: flex;
+    align-items: center;
 }
